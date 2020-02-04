@@ -15,6 +15,13 @@ npm run server & npm run watch
 
 https://developer.huawei.com/consumer/cn/service/hms/catalog/fastapp.html?page=fastapp_fastapp_car_devguide
 
+# 寻找 adb
+
+adb.exe 
+1. 在安装 Android Studio 的 sdk 中，d:\sdk\platform-tools
+2. 网上找个安装程序
+3. 如果你安装了 Huawei QuickApp IDE 的话, Huawei QuickApp IDE\resources\app\extensions\deveco-debug\lib\toolkit
+
 # 调试中的问题
 
 1.使用模拟器：
