@@ -36,14 +36,14 @@ adb.exe
 1、下载SDK Tools。[下载链接]：(https://developer.android.com/studio/?gclid=EAIaIQobChMIgcCry_6f5AIV2aqWCh2RXAX-EAAYASAAEgLhgfD_BwE#downloads)
 
 Command line tools only
-![](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/466391b98b2d4e1385a6b9a9065518ce-5186114038772426112.png)
+![images](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/466391b98b2d4e1385a6b9a9065518ce-5186114038772426112.png)
 
 2、解压到{Android_SDK_ROOT}( Android_SDK_ROOT为用户自定义Android SDK文件夹路径，例如D:\sdk)，进入Android_SDK_ROOT目录，在当前目录打开cmd命令行。
 3、下载platform，在cmd中执行以下命令：tools\bin\sdkmanager platforms;android-28。
 4、下载platform-tools，在cmd中执行以下命令：tools\bin\sdkmanager platform-tools。
 5、下载emulator，在cmd中执行以下命令：tools\bin\sdkmanager emulator。
 
-![](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/aeb1d54347a64e06866089104afd73e8-7781874948842649685.png)
+![images](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/aeb1d54347a64e06866089104afd73e8-7781874948842649685.png)
 
 
 # 调试中的问题
