@@ -22,6 +22,30 @@ adb.exe
 2. 网上找个安装程序
 3. 如果你安装了 Huawei QuickApp IDE 的话, Huawei QuickApp IDE\resources\app\extensions\deveco-debug\lib\toolkit
 
+# 模拟器的安装
+
+1.安装Java并配置环境变量：[jdk1.8下载](https://developer.huawei.com/consumer/cn/service/hms/doc/fastapp_fastapp_IDE_car_operguide.html)
+2019开始Javasdk要开始收费，需要oracle账户下载，用户名：490204629@qq.com，密码：Huang528*2*。
+
+2.windows开启仿真性能硬件加速
+参考如下链接启用Hyper-V加速/启用HAXM加速：[Look]
+(https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?pivots=windows)
+[Hyper-v](https://docs.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+
+3.通过SDK Tools命令行安装
+1、下载SDK Tools。[下载链接]：(https://developer.android.com/studio/?gclid=EAIaIQobChMIgcCry_6f5AIV2aqWCh2RXAX-EAAYASAAEgLhgfD_BwE#downloads)
+
+Command line tools only
+![](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/466391b98b2d4e1385a6b9a9065518ce-5186114038772426112.png)
+
+2、解压到{Android_SDK_ROOT}( Android_SDK_ROOT为用户自定义Android SDK文件夹路径，例如D:\sdk)，进入Android_SDK_ROOT目录，在当前目录打开cmd命令行。
+3、下载platform，在cmd中执行以下命令：tools\bin\sdkmanager platforms;android-28。
+4、下载platform-tools，在cmd中执行以下命令：tools\bin\sdkmanager platform-tools。
+5、下载emulator，在cmd中执行以下命令：tools\bin\sdkmanager emulator。
+
+![](https://obs.cn-north-2.myhwclouds.com/hms-ds-wf/b/aeb1d54347a64e06866089104afd73e8-7781874948842649685.png)
+
+
 # 调试中的问题
 
 1.使用模拟器：
